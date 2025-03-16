@@ -13,11 +13,10 @@ def calculate(num1, num2, operation):
     else:
         return "Error: Invalid operation."
 
-    # Check if the result is a whole number
     if result == int(result):
-        return int(result)  # Return as integer
+        return int(result)  
     else:
-        return result  # Return as float
+        return result 
 
 def main():
     num1 = float(input("Enter the first number: "))
